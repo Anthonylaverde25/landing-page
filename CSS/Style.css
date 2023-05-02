@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+
+
+:root {
+
+    /* bg colors */
+    --background: #02050e;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+
+
+    /* Text colors */
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+}
+
+/*Globales*/
+
+
+body{
+    background-image: url(../image/landscape.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+header {
+    padding: 10px;
+    border: 2px solid var(--bg-azul-10);
+   
+}
+
+
+
+/*Header*/
+
+.contenedor_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    gap: 20px;
+}
+
+.logo h1{
+    color: var(--text-gray);
+    font-size: 2 rem;
+    font-weight: bold;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    font-size: 1rem;
+    
+
+
+}
+
+.navbar a {
+    margin: 5px;
+    font-weight: 1000;
+    color: rgb(120, 120, 131);
+}
+
+
+
+
+.navbar a:hover{
+    color: #753a15;
+
+}
