@@ -188,7 +188,6 @@ body {
 }
 
 
-<<<<<<< HEAD
 /*Ventajas*/
 .ventajas h2{
   text-align: center;
@@ -424,77 +423,9 @@ p {
 
 
 
-=======
->>>>>>> cc1c2a6c8cf407ce06e61ee24ab45f157591cc68
 
 
-/* Estilos para pantallas de hasta 768px de ancho */
-@media only screen and (max-width: 768px) {
 
-  /* Estilos para la cabecera */
-  .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  @media only screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-    .navbar {
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background-color: #fff;
-        padding: 20px;
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-    }
-    .navbar a {
-        margin: 10px 0;
-    }
-    input[type="checkbox"] {
-        display: none;
-    }
-    input[type="checkbox"]:checked ~ .navbar {
-        display: flex;
-    }
-    input[type="checkbox"]:checked ~ .hamburger span:nth-child(1) {
-        transform: rotate(-45deg) translate(-8px, 7px);
-    }
-    input[type="checkbox"]:checked ~ .hamburger span:nth-child(2) {
-        opacity: 0;
-    }
-    input[type="checkbox"]:checked ~ .hamburger span:nth-child(3) {
-        transform: rotate(45deg) translate(-8px, -7px);
-    }
-}
-  /* Estilos para la sección de información sobre nosotros */
-  .infoNosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .trabajaNosotros {
-    margin-top: 1rem;
-  }
-
-  .trabajaNosotros a {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-}
 
 
 
