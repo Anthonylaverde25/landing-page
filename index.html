@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Hoja de estilos CSS -->
     <link rel="stylesheet" href="CSS/Style.css">
+    <!--Hoja de estilos para version mobile-->
+    <link rel="stylesheet" href="CSS/mobile.css">
     <!-- Fuente Roboto GoogleFont -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,11 +28,13 @@
     
     <header class="header">
         <a href="#" class="logo">Buenos Aires Tour</a>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon"></label>
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Contact</a>
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Service</a>
+          <a href="#">Contact</a>
         </nav>
     </header>
 
@@ -184,8 +188,11 @@
                 </div>
 
 
-                <div class="mapaFrame" style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Buenos%20Aires,%20CABA+(Citytour)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Car Navigation Systems</a></iframe></div>
-                <!--<img src="" alt="aqui va la imagen">-->
+                <div class="mapaFrame" style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=buenos%20aires,%20puerto%20madero+(city%20)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Car Navigation Systems</a></iframe></div>
+
+                <!--
+                <div class="mapaFrame"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Buenos%20Aires,%20CABA+(Citytour)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">Car Navigation Systems</a></iframe></div>
+                -->
             </div>
 
             

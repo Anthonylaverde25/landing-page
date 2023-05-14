@@ -1,71 +1,137 @@
-/* Estilos generales */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-image: url(/image/landscape.jpg);
+/* estilo mobile que funciona*/
+
+
+@media (max-width: 892px) {
+
+  /* HEADER */
+  .navbar {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 1;
   }
-  
-  .contenedor_header {
+
+  .menu-toggle:checked+.menu-icon::before {
+    transform: rotate(45deg);
+    top: 6px;
+  }
+
+  .menu-toggle:checked+.menu-icon::after {
+    transform: rotate(-45deg);
+    bottom: 6px;
+  }
+
+  .menu-toggle:checked~.navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    padding: 10px;
   }
-  
-  .logo h1 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
+
   .navbar a {
-    color: #fff;
+    margin: 10px;
     text-decoration: none;
-    margin-right: 20px;
-    font-size: 18px;
+    color: #333;
   }
-  
-  /* Estilos de la sección hero */
-  .hero {
+
+  .navbar a.active {
+    font-weight: bold;
+    color: #ff5722;
+  }
+
+
+  /*MAIN*/
+
+  .hero{
     display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: auto;
+  }
+
+  .map img{
+    display: none;
+  }
+
+
+  .infoNosotros{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 50px;
   }
-  
-  .hero_info {
-    flex-basis: 50%;
+
+  .infoNosotros h2{
   }
-  
-  .hero_info h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
+
+
+
+  .ventajas .ventajas_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .hero_info p {
-    font-size: 24px;
-    line-height: 1.5;
-    margin-bottom: 40px;
+
+  .ventajas .ventajas_contenedor .contenedorCards{
+    margin-bottom: 15px;
   }
-  
-  .hero_botones a {
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-right: 20px;
-    font-size: 18px;
-  }
-  
-  .hero_imagen {
-    flex-basis: 40%;
+
+
+
+
+  /*CONTACTOS*/
+
+  .contenedorContacto {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    }
+    
+    .contactanos {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+    }
+    
+    .contactanos h2 {
+    margin-left: 0;
     text-align: center;
-  }
-  
-  .hero_imagen h3 {
-    font-size: 24px;
-    margin-top: 0;
-  }
-  
+    }
+    
+    .direciones {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    padding: 0;
+    }
+    
+    .direciones .contacto1,
+    .direciones .contacto2 {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+    }
+    
+    .direciones ul {
+    margin: 0;
+    }
+    
+    .redesSociales {
+    margin-left: 0;
+    text-align: center;
+    }
+    
+    .redesSociales i {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    }
+    
+    footer {
+    text-align: center;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+ 
+
+}
