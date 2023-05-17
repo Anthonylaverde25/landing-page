@@ -10,6 +10,8 @@
 
 }
 
+
+
 :root{
   --fuente-principal:black;
   --fuente-secundaria: #fae8e8;
@@ -71,10 +73,11 @@ body {
 
 .menu-toggle {
   display: none;
+  
 }
 
 .menu-icon {
-  display: block;
+  display: none;
   position: relative;
   width: 25px;
   height: 15px;
