@@ -8,6 +8,13 @@
 
   }
 
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
   /* HEADER */
   .navbar {
     display: none;
